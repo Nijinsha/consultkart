@@ -11,7 +11,7 @@ class Main extends Component {
    <Grid padded={true} >
        <Grid.Row columns={2} >
            <Grid.Column floated='left'>
-
+                <Image src='./images/logo.png' width='250' height='43' />
            </Grid.Column>  
             <Grid.Column floated='right'>
                <Button  color='white' floated='right'>Grey</Button>
@@ -26,8 +26,8 @@ class Main extends Component {
             <Grid>
                 <Grid.Row columns={1}>
                      <Grid.Column padded='true' textAlign='center'>
-               <Button  color='white' >Grey</Button>
-               <Button  color='white'>Grey</Button>
+               <Button  color='blue' size ='massive'  >Grey</Button>
+              <Button color='blue' size='massive'  >Grey</Button>
            </Grid.Column>  
                 </Grid.Row>    
             </Grid>    
@@ -37,7 +37,7 @@ class Main extends Component {
             <Input className='Main-card-content' fluid  placeholder='Name' size='large' />
             <Input className='Main-card-content' fluid  placeholder='E-mail' size='large' />
             <Input className='Main-card-content' fluid  placeholder='Phone Number' size='large' />
-             <Button className='Main-card-content' size='large'fluid>Submit</Button>
+             <Button color='blue' className='Main-card-content' size='large'fluid>Submit</Button>
              <Header as='h5' color='#fff' >We will not share your email and contacts. Read our privacy policy.</Header>
         </div>
       <Grid.Column>
